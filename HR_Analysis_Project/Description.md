@@ -41,6 +41,9 @@ We are provided with the Excel datasheet which contains the employees data for 3
     - Column Cleanup: Removed unnecessary columns to streamline the dataset and focus on relevant information.
     - Final Data Load: Loaded only the transformed and clean data into Power BI for analysis and visualization.
 ### Analysis and Dashboard Development
+- Measure Creation: Developed various measures such as Actual Working Days, Total Present Days, Work from Home, Present Onsite, Sick Leave Counts and Percentages, among others. These measures provided critical metrics for analysis.
+- New Columns Addition: Added new columns to account for half days and full days (e.g., Half Work from Home and Work from Home) using 0.5 for half days and 1 for full days, ensuring accurate representation of work hours.
+- Advanced Filtering: Used advanced filtering techniques to remove days not present in the data and days off, refining the analysis to focus only on relevant working days.
 ### Key Findings
 Let's delve into these findings to extract meaningful conclusions.
 
@@ -54,5 +57,20 @@ Let's delve into these findings to extract meaningful conclusions.
 
 
 ### Insights and Recommendations
+Based on the data analysis, the following insights and recommendations can guide effective decision-making:
+
+- Office Space Utilization:
+Leverage higher attendance rates on Mondays and Tuesdays to plan team-building exercises and essential meetings that require maximum employee presence. This approach optimizes office space utilization and fosters collaboration.
+
+- Maintenance and Off-Peak Activities:
+Utilize Fridays and Thursdays, which exhibit slightly lower attendance rates, to focus on office maintenance and organize activities that require fewer employees. This strategy ensures efficient space management without disrupting regular work.
+
+- Work-from-Home (WFH) Policy:
+Considering the 10% preference for remote work, implementing or strengthening a work-from-home policy can offer employees flexibility and contribute to overall satisfaction and work-life balance.
+
+- Wellness Programs:
+While the low sick leave percentage indicates good employee health, introducing wellness programs and initiatives can further nurture a healthy work environment, reduce sick leave instances, and promote employee well-being.
+
 ### Conclusion 
+In conclusion, the insightful data analysis empowers Atliq Technologies to optimize office space utilization, foster employee engagement, and enhance work-life balance. By leveraging these findings, the company can make informed decisions regarding team activities, maintenance schedules, work-from-home policies, and wellness programs. These measures will ultimately lead to a more productive and satisfied workforce.
 ### Screenshoot & References
